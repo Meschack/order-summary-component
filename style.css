@@ -1,0 +1,92 @@
+/***** Flex learning Section *****/
+
+.container {
+  /* padding: 2rem; */
+  border: 2px solid;
+  border-radius: 5px;
+  height: 500px;
+
+  display: flex; /* Pour aligner les enfants du conteneur côte à côte par défaut */
+
+  /* Positionner les éléments dans le conteneur */
+  /* align-items: ; */ /* Permet d'indiquer l'alignement sur l'axe secondaire */
+  /* JUSTIFY-CONTENT : Permet d'indiquer l'alignement sur l'axe principal */
+
+  justify-content: center; /* Permet de centrer horizontalement les enfants */
+  /* justify-content: start; Comportement par défaut. Les éléments sont positionnés au début du parent */
+  /* justify-content: end; Permet de positionnner les enfants à la fin de l'espace parent */
+  /* justify-content: space-between; Permet de distribuer les enfants sur l'axe */
+  /* justify-content: space-around; Around : Autour | Met de l'espace entre les enfants mais aussi permet de faire en sorte que les enfants extrêmes ne soient pas collés au parent */
+  /* justify-content: stretch; */
+
+  /* Espacer les enfants avec la propriété gap */
+  gap: 10px;
+
+  /* Définir comment s'effectue le retour à la ligne */
+  /* flex-wrap: wrap; Permet de renvoyer les éléments à la ligne lorsqu'elle n'est plus capable de prendre un élément sans qu'il n'y ait de débordement */
+
+  /* align-items: center; */
+  /* align-items: flex-end; */
+  align-items: center;
+
+  flex-direction: column; /* Lorsque les éléments sont positionnés suivant la colonne, on utilise align-items pour les aligner sur l'horizontal et justify-content est utilisé pour oes aligner sur la verticale */
+}
+
+.container .enfant {
+  height: 50px;
+  width: 500px;
+}
+
+.container .enfant:nth-child(1) {
+  background-color: brown;
+}
+
+.container .enfant:nth-child(2) {
+  background-color: red;
+}
+
+.container .enfant:nth-child(3) {
+  background-color: purple;
+}
+
+.container .enfant:nth-child(4) {
+  background-color: yellow;
+}
+
+.container .enfant:nth-child(5) {
+  background-color: blue;
+}
+
+.container .enfant:nth-child(6) {
+  background-color: black;
+}
+
+/* Les div sont par défaut des éléments de type bloc */
+/* Le contraire de bloc, c'est inline */
+
+/***** End Flex learning Section *****/
+
+/***** Project CSS Section *****/
+
+@font-face {
+  font-family: "Red Hat";
+  src: url("./fonts/RedHatDisplay-Regular.ttf");
+}
+
+* {
+  font-family: "Red Hat", JetBrains Mono;
+}
+
+body {
+  background: url("./images/pattern-background-desktop.svg") center/cover
+    no-repeat;
+  background-color: hsl(225, 100%, 94%);
+}
+
+main {
+  border: 1px solid;
+  border-radius: 10px;
+  width: max-content;
+}
+
+/***** End Project CSS Section *****/
