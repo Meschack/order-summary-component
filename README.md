@@ -1,11 +1,3 @@
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
-</head>
-
-<div style="font-family:'Nonuto Sans'; font-weight: 700; font-size: 18px;">
-
 # Frontend Mentor - Order summary card
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
@@ -31,4 +23,3 @@ The users should be able to:
 This project is made to help my comrades improve their skills on HTML and CSS
 
 See the result [online](https://meschack.github.io/order-summary-component).
-</div>
