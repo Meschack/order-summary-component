@@ -1,13 +1,3 @@
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
-
-  * {
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-  }
-</style>
-
 # Frontend Mentor - Order summary card
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
